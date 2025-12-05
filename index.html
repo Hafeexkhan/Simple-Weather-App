@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Modern Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <h1 class="app-title">Simple Weather App</h1>
+
+      <div class="search-box">
+        <input type="text" id="city" placeholder="Enter city name..." />
+        <button onclick="getWeather()">Search</button>
+      </div>
+
+      <div id="result" class="weather-box hide">
+        <img id="icon" class="weather-icon" src="" alt="Weather Icon" />
+        <h2 id="temp"></h2>
+        <h3 id="cityName"></h3>
+        <p id="condition"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
